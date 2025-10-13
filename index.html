@@ -1,28 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | QR code component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <title>Frontend | QR code</title>
 
-  Improve your front-end skills by building projects
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      /* page center layout */
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+      }
 
-  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Hunafa Zaky</a>.
-  </div>
-</body>
+      body {
+        display: flex;
+        align-items: center; /* vertical center */
+        justify-content: center; /* horizontal center */
+        background-color: lightcyan;
+        font-family: system-ui, -apple-system, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial;
+      }
+
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 12px;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+
+      /* outer box */
+      .container {
+        display: flex;
+        align-items: start; /* center inner content vertically */
+        justify-content: center; /* center inner content horizontally */
+        width: 280px;
+        height: 420px;
+        background-color: white;
+        border-radius: 12px;
+        box-shadow: 0 8px 12px rgba(20, 40, 80, 0.08);
+        padding-top: 15px;
+      }
+
+      /* inner box */
+      .content {
+        width: 250px;
+        height: 250px;
+        background-color: lightcoral;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .qr-img {
+        border-radius: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <!-- <p>test</p> -->
+         <img class="qr-img" src="./images/image-qr-code.png" width="100%" alt="">
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Hunafa Zaky</a>.
+    </div>
+  </body>
 </html>
