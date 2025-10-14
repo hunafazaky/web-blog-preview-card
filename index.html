@@ -9,94 +9,22 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./images/favicon-32x32.png"
+      href="./assets/images/favicon-32x32.png"
     />
 
-    <title>Frontend | QR code</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      /* page center layout */
-      html,
-      body {
-        height: 100%;
-        margin: 0;
-      }
-
-      body {
-        display: flex;
-        align-items: center; /* vertical center */
-        justify-content: center; /* horizontal center */
-        background-color: #d5e1ef;
-        font-family: system-ui, -apple-system, "Segoe UI", Roboto,
-          "Helvetica Neue", Arial;
-        padding: 230.5px 0 230.5px 0;
-      }
-
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-        position: absolute;
-        left: 0;
-        right: 0;
-        bottom: 12px;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-
-      /* outer box */
-      .container {
-        display: flex;
-        flex-direction: column;
-        align-items: center; /* center inner content vertically */
-        justify-content: start; /* center inner content horizontally */
-        /* width: 280px;
-        height: 420px; */
-        background-color: white;
-        border-radius: 12px;
-        box-shadow: 0 8px 12px rgba(20, 40, 80, 0.08);
-        padding: 16px;
-        padding-bottom: 40px;
-        gap: 24px;
-      }
-
-      /* inner box */
-      .content {
-        width: 288px;
-        border-radius: 8px;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-        justify-content: center;
-        gap: 16px;
-      }
-
-      .content h3 {
-        color: #1f314f;
-        /* font-weight: bolder; */
-        padding: 0 16px;
-        margin: 0;
-      }
-
-      .content p {
-        color: #68778d;
-        /* font-weight: lighter; */
-        padding: 0 16px;
-        margin: 0;
-      }
-
-      .qr-img {
-        width: 288px;
-        height: 288px;
-        border-radius: 10px;
-      }
-    </style>
+    <title>Frontend Projects | QR code</title>
   </head>
   <body>
     <div class="container">
-      <img class="qr-img" src="./images/image-qr-code.png" />
+      <img class="qr-img" src="./assets/images/image-qr-code.png" />
       <div class="content">
         <h3>Improve your front-end skills by building projects</h3>
         <p>
