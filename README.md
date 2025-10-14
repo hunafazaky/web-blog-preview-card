@@ -16,13 +16,13 @@ This is my solution to the [QR code component challenge on Frontend Mentor](http
 ### Screenshot
 
 <div align="center">
-  <table style="border: none;">
+  <table style="border:none; padding:10px;">
     <tr>
-      <td align="center" style="border: none;" margin="10px">
+      <td align="center" style="border:none;">
         <img src="./assets/images/overview-desktop.jpeg" height="300"><br>
         <sub>Dashboard View</sub>
       </td>
-      <td align="center" style="border: none;" margin="10px">
+      <td align="center" style="border:none;">
         <img src="./assets/images/overview-mobile.jpeg" height="300"><br>
         <sub>Mobile View</sub>
       </td>
