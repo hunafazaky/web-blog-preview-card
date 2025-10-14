@@ -15,13 +15,13 @@ This is my solution to the [QR code component challenge on Frontend Mentor](http
 
 ### Screenshot
 
-<div style="display:flex;  flex-direction:row; justify-content:center; gap:10px;">
-  <div align="center">
+<div style="display:flex; justify-content:center; gap:10px;">
+  <div>
     <img src="./assets/images/overview-desktop.jpeg" height="300">
     <br>
     <sub>Desktop view</sub>
   </div>
-  <div align="center">
+  <div>
     <img src="./assets/images/overview-mobile.jpeg" height="300">
     <br>
     <sub>Mobile view</sub>
