@@ -15,17 +15,19 @@ This is my solution to the [QR code component challenge on Frontend Mentor](http
 
 ### Screenshot
 
-<div style="display:flex; justify-content:center; gap:10px;">
-  <div>
-    <img src="./assets/images/overview-desktop.jpeg" height="300">
-    <br>
-    <sub>Desktop view</sub>
-  </div>
-  <div>
-    <img src="./assets/images/overview-mobile.jpeg" height="300">
-    <br>
-    <sub>Mobile view</sub>
-  </div>
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="./assets/images/overview-desktop.jpeg" height="300"><br>
+        <sub>Dashboard View</sub>
+      </td>
+      <td align="center">
+        <img src="./assets/images/overview-mobile.jpeg" height="300"><br>
+        <sub>Mobile View</sub>
+      </td>
+    </tr>
+  </table>
 </div>
 
 ## My process
