@@ -27,9 +27,10 @@
         display: flex;
         align-items: center; /* vertical center */
         justify-content: center; /* horizontal center */
-        background-color: lightcyan;
+        background-color: #d5e1ef;
         font-family: system-ui, -apple-system, "Segoe UI", Roboto,
           "Helvetica Neue", Arial;
+        padding: 230.5px 0 230.5px 0;
       }
 
       .attribution {
@@ -47,45 +48,69 @@
       /* outer box */
       .container {
         display: flex;
-        align-items: start; /* center inner content vertically */
-        justify-content: center; /* center inner content horizontally */
-        width: 280px;
-        height: 420px;
+        flex-direction: column;
+        align-items: center; /* center inner content vertically */
+        justify-content: start; /* center inner content horizontally */
+        /* width: 280px;
+        height: 420px; */
         background-color: white;
         border-radius: 12px;
         box-shadow: 0 8px 12px rgba(20, 40, 80, 0.08);
-        padding-top: 15px;
+        padding: 16px;
+        padding-bottom: 40px;
+        gap: 24px;
       }
 
       /* inner box */
       .content {
-        width: 250px;
-        height: 250px;
-        background-color: lightcoral;
+        width: 288px;
         border-radius: 8px;
+        text-align: center;
         display: flex;
-        align-items: center;
+        flex-direction: column;
+        align-items: start;
         justify-content: center;
+        gap: 16px;
+      }
+
+      .content h3 {
+        color: #1f314f;
+        /* font-weight: bolder; */
+        padding: 0 16px;
+        margin: 0;
+      }
+
+      .content p {
+        color: #68778d;
+        /* font-weight: lighter; */
+        padding: 0 16px;
+        margin: 0;
       }
 
       .qr-img {
-        border-radius: 8px;
+        width: 288px;
+        height: 288px;
+        border-radius: 10px;
       }
     </style>
   </head>
   <body>
     <div class="container">
+      <img class="qr-img" src="./images/image-qr-code.png" />
       <div class="content">
-        <!-- <p>test</p> -->
-         <img class="qr-img" src="./images/image-qr-code.png" width="100%" alt="">
+        <h3>Improve your front-end skills by building projects</h3>
+        <p>
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level
+        </p>
       </div>
     </div>
 
-    <div class="attribution">
+    <!-- <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
       >. Coded by <a href="#">Hunafa Zaky</a>.
-    </div>
+    </div> -->
   </body>
 </html>
