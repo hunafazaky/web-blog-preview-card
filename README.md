@@ -1,9 +1,8 @@
 # Frontend Mentor - QR code component solution
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is my solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H).
 
 ## Table of contents
-
 - [Overview](#overview)
   - [Screenshot](#screenshot)
 - [My process](#my-process)
@@ -11,30 +10,19 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [Continued development](#continued-development)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
-
 ### Screenshot
-
-![Desktop View](./assets/images/overview-desktop.jpeg)
-![Mobile View](./assets/images/overview-mobile.jpeg)
+<img src="./assets/images/overview-desktop.jpeg" height="300" alt="Desktop preview"> <img src="./assets/images/overview-mobile.jpeg" height="300" alt="Mobile preview">
 
 ## My process
-
 ### Built with
-
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-
 ### Continued development
-
 - Create and Remove QR Codes
 - Save created QR Codes
 
 ## Author
-
 - Website - [Hunafa Zaky](https://hunafazaky.github.io/)
 - Frontend Mentor - [@hunafazaky](https://www.frontendmentor.io/profile/hunafazaky)
