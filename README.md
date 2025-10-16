@@ -17,7 +17,7 @@ This is my solution to the [QR code component challenge on Frontend Mentor](http
 
 #### Desktop View | Mobile View
 
-<img src="./assets/images/overview-desktop.jpeg" height="300" style="margin-right:10px;"> <img src="./assets/images/overview-mobile.jpeg" height="300">
+<img src="./assets/images/overview-desktop.webp" height="300" style="margin-right:10px;"> <img src="./assets/images/overview-mobile.webp" height="300">
 
 ## My process
 
