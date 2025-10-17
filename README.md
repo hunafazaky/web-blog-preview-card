@@ -1,6 +1,6 @@
-# Frontend Mentor - QR code component solution
+# Frontend Mentor - Blog preview card solution
 
-This is my solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H).
+This is my solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS).
 
 ## Table of contents
 
@@ -17,20 +17,17 @@ This is my solution to the [QR code component challenge on Frontend Mentor](http
 
 #### Desktop View | Mobile View
 
-<img src="./assets/images/overview-desktop.webp" height="300" style="margin-right:10px;"> <img src="./assets/images/overview-mobile.webp" height="300">
+<!-- img -->
 
 ## My process
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
+<!-- list -->
 
 ### Continued development
 
-- Create and Remove QR Codes
-- Save created QR Codes
+<!-- list -->
 
 ## Author
 
