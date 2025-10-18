@@ -68,12 +68,12 @@ body {
   box-shadow: 8px 8px 0 0 black;
 }
 
-.card:hover {
+/* .card:hover {
   box-shadow: 16px 16px 0 0 black;
+} */
+.title:hover {
   cursor: pointer;
-  .title {
-    color: var(--yellow);
-  }
+  color: var(--yellow);
 }
 
 .card section {

@@ -17,17 +17,25 @@ This is my solution to the [Blog preview card challenge on Frontend Mentor](http
 
 #### Desktop View | Mobile View
 
-<!-- img -->
+<img src="./assets/images/overview-desktop.webp" height="300" style="margin-right:10px;"> <img src="./assets/images/overview-mobile.webp" height="300">
+
+#### Desktop View | Mobile View
+
+<img src="./assets/images/overview-desktop-hover.webp" height="300" style="margin-right:10px;">
 
 ## My process
 
 ### Built with
 
-<!-- list -->
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+
 
 ### Continued development
 
-<!-- list -->
+- Edit Profile Image and Name
+- Edit text and update the timedate
 
 ## Author
 
