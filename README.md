@@ -19,7 +19,7 @@ This is my solution to the [Blog preview card challenge on Frontend Mentor](http
 
 <img src="./assets/images/overview-desktop.webp" height="300" style="margin-right:10px;"> <img src="./assets/images/overview-mobile.webp" height="300">
 
-#### Desktop View | Mobile View
+#### Desktop View - Hover State
 
 <img src="./assets/images/overview-desktop-hover.webp" height="300" style="margin-right:10px;">
 
